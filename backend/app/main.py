@@ -51,14 +51,23 @@ app = FastAPI(
 )
 
 
+
 # ─── CORS Middleware ──────────────────────────────────────────────────────────
+allowed_origins = [
+    settings.FRONTEND_URL.rstrip("/"),
+    "https://smart-ai-wardrobe-assistant-fyyfclmvl-venkat-10f2.vercel.app",
+    "http://localhost:3000",
+    "http://localhost:5173",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.FRONTEND_URL, "http://localhost:3000", "http://localhost:5173"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 # ─── Static Files (uploaded images) ──────────────────────────────────────────
