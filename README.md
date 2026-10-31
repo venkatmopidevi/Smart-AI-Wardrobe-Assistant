@@ -9,11 +9,9 @@
 [![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4?logo=google)](https://aistudio.google.com)
 
 ---
-## 🌐 Live Website
+Check out my Smart AI Wardrobe Assistant, an AI-powered web application that helps users manage their wardrobe and get personalized outfit recommendations.
 
-Check out the **Smart AI Wardrobe Assistant**, an AI-powered application that helps users manage their wardrobe and get personalized outfit recommendations.
-
-🔗 **Live Demo:smart-ai-wardrobe-assistant.vercel.app
+🌐 Live Website: https://smart-ai-wardrobe-assistant.vercel.app/
 
 Explore the website and experience smarter wardrobe management!
 ## ✨ Features
