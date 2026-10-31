@@ -53,12 +53,15 @@ app = FastAPI(
 
 
 # ─── CORS Middleware ──────────────────────────────────────────────────────────
+
 allowed_origins = [
     settings.FRONTEND_URL.rstrip("/"),
     "https://smart-ai-wardrobe-assistant-fyyfclmvl-venkat-10f2.vercel.app",
+    "https://smart-ai-wardrobe-assistant-hu8dogcmh-venkat-10f2.vercel.app",
     "http://localhost:3000",
     "http://localhost:5173",
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
